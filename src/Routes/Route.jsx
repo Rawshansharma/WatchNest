@@ -10,7 +10,7 @@ const Route = () => {
   )
 }
 
-export default Route
+export default Route;
 
 
 
