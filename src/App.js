@@ -1,10 +1,10 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./pages/Home";
+import Routess from "./Routes/Route";
 
 function App() {
   return (
    <Router>
-     <Home/>
+     <Routess/>
    </Router>
   );
 }
