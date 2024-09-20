@@ -1,11 +1,16 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Routess from "./Routes/Route";
+import { AuthProvider } from './context/Authcontext';
+
 
 function App() {
   return (
-   <Router>
-     <Routess/>
-   </Router>
+    <AuthProvider>
+     <Router>
+       <Routess/>
+     </Router>
+   </AuthProvider>
+
   );
 }
 

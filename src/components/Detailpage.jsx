@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 
 const Detailpage = () => {
@@ -65,6 +65,9 @@ const Detailpage = () => {
                             </span>
                         ))}
                     </div>
+                    <Link to='/'>
+                    <button className='px-3 py-2 mt-4 bg-blue-100 text-blue-800 rounded-full '>Go to Home page</button>
+                    </Link>
                 </div>
             </div>
         </div>
